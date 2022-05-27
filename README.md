@@ -55,7 +55,9 @@ rails s
 
 ![Send OTP logs](/public/images/otp.png)
 
-- You will receive a `valid token` in your mobile, replace phonenumber and country code.
+- Replace phonenumber and country code.
+
+- You will receive a `valid code` in your mobile.
 
 ### Create a User
 
