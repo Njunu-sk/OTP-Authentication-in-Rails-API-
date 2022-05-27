@@ -16,7 +16,9 @@ gem "puma", "~> 5.0"
 # gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+ gem "redis", "~> 4.0"
+ gem 'redis-rails', '~> 5.0', '>= 5.0.2'
+ gem 'sidekiq', '~> 6.4', '>= 6.4.2'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -50,4 +52,7 @@ group :development do
   gem 'faker'
   gem 'database_cleaner'
 end
+
+gem 'twilio-ruby', '~> 5.67.1'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
 
