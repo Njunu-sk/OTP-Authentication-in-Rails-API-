@@ -1,7 +1,7 @@
 class CreateUsers < ActiveRecord::Migration[7.0]
   def change
     create_table :users do |t|
-      t.string :county_code
+      t.string :country_code
       t.bigint :phone_number
       t.string :name
 
